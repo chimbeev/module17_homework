@@ -6,5 +6,5 @@ function str_convert(str) {
     return reverse
 }
 
-console.log(str_convert('Проверка'))
-module.exports = str_convert();
+//console.log(str_convert('Проверка'))
+module.exports = str_convert;
