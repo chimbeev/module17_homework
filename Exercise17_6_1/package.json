@@ -1,0 +1,10 @@
+{
+  "name": "Exercise17_6_1",
+  "version": "1.0.0",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
