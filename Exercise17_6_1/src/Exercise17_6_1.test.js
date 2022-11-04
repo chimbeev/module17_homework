@@ -1,8 +1,6 @@
-const str_convert = require('./Exercise17_6_1.js');
+const str_convert = require('./Exercise17_6_1');
 
-it('reverse-string', () => {
-
-    //console.log(str_convert('Проверка'));
-    expect(console.log(str_convert('Проверка'))).toBe('акреворП');
+describe("test reverse string function", () => {
+    it("result reverse string", () => expect(str_convert('Проверка')).toBe('акреворП'));
 
 });
